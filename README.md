@@ -13,8 +13,8 @@
   <style>
    .header-bg {
     background: url(image/кофеман.jpg) repeat-x center bottom; 
-    height: 100px; /* Высота шапки */
-    text-align: center; /* Выравнивание по центру */
+    height: 100px; 
+    text-align: center; 
    }
    .header-bg img {
     position: relative; /* Относительное позиционирование */
