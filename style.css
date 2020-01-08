@@ -1,0 +1,132 @@
+}
+	border: 0;
+	font-family: Calibri;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+.navbar li{
+	margin: 20px;			
+    list-style:none;		
+    display:inline-block;   
+    background:#ccc;		
+}
+.navbar li a{
+    color:#ff6347; 			
+    padding:10px 15px;		
+    text-decoration:none;  
+}
+
+.all-products {
+	width: 100%;
+
+}
+
+.product {
+	width: 30%;
+	text-align: center;
+	margin: 40px;
+	float: left;
+}
+ img {
+	width: 200px;
+}
+
+h1 {
+	font-size: 20px;
+	color: yellow;
+}
+
+.description-product {
+	width: 400px;
+	text-align: center;
+	font-size: 20 px;
+	margin: 10px;
+}
+
+.price {
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+}
+#conteiner{
+	width:1320px; 
+	height:auto;
+	margin:0px auto;
+	padding-top:10px; 
+}
+#menu1{
+	position:relative;
+	display:block;
+	width:100%;
+	height:auto;
+	z-index:10;
+}
+	#menu1 ul{
+		position:relative;
+		display:block;
+		margin:0px;
+		padding:0px;
+		width:100%;
+		height:auto;
+		list-style:none;
+		background:#F3A601;
+	}
+	#menu1 > ul::after{
+		display:block;
+		width:100%;
+		height:0px;
+		clear:both;
+		content:" ";
+	}
+		#menu1 ul li{
+			position:relative;
+			display:block;
+			float:left;
+			width:auto;
+			height:auto;
+		}
+			#menu1 ul li a{
+				display:block;
+				padding:9px 25px 0px 25px;
+				font-size:14px;
+				font-family:Arial, sans-serif;
+				color:#ffffef;
+				line-height:1.5em;
+				text-decoration:none;
+				font-weight:bold;
+				text-transform:uppercase;
+				height:40px;
+				box-sizing:border-box;
+			}
+			#menu1 ul li > a:hover, #menu1 ul li:hover > a{
+				background:#EBBD5B;
+				color:#2B45E0;
+			}
+			#menu1 ul li ul{
+				position:absolute;
+				top:36px;
+				left:0px;
+				display:none;
+				width:200px;
+				background:#EBBD5B;
+			}
+			#menu1 ul li:hover ul{display:block;}//строчка реализует механизм выпадения*/
+				#menu1 ul li ul li{
+					float:none;
+					width:100%;
+				}
+					#menu1 ul li ul li a{
+						display:block;
+						text-transform:none;
+						height:auto;
+						padding:7px 25px;
+						width:100%;
+						box-sizing:border-box;
+						border-top:1px solid #ffffff;
+					}
+					#menu1 ul li ul li:first-child a{border-top:0px;}
+					#menu1 ul li ul li a:hover{
+						background:#FDDC96;
+						color:#6572BC;
+					}
